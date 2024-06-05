@@ -1,0 +1,581 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+html,body{
+    height:100%;
+}
+
+.center{
+    margin:0 auto;
+    padding: 0 2%;
+    max-width:1280px;
+}
+
+.clear{
+    clear:both;
+}
+
+/* Fim Div's Gerais */
+
+/* Configurações Header */
+
+header{
+    width:100%;
+    /* height:90%; */
+    background-image:url('../img/capa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 40px 2%;
+}
+
+.logo{
+    float:left;
+    width:50%;
+}
+
+.logo img{
+    width:40%;
+}
+
+.menu-desktop, .menu-mobile{
+    float:right;
+}
+
+.menu-desktop ul li{
+    display: inline-block;
+}
+
+.menu-desktop ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-variant: small-caps;
+    padding: 0 10px 0 20px;
+    font-size: 1.2em;
+}
+
+.menu-desktop ul li a:hover{
+    transition-duration: 0.5s;
+    color:rgb(180, 101, 245);
+}
+
+.menu-mobile{
+    display:none;
+    cursor:pointer;
+    width: 32px;
+    height: 32px;
+    background-image:url('../img/menu.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.menu-mobile ul{
+    display:none;
+    width:100%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    list-style-type: none;
+    background-color:white;
+    text-align: center;
+    font-size: 1.1em;
+    
+}
+
+.menu-mobile ul li{
+    padding: 0.6% 0;
+    border-bottom: 1px solid #a1a1a1;
+}
+
+.menu-mobile ul li:hover{
+    transition-duration: 1s;
+    background-color: #d4d4d4;
+}
+
+
+.menu-mobile ul li a{
+    text-decoration: none;
+    color:#000;
+    font-variant: small-caps;
+    padding: 0 10px 0 20px;
+    font-size: 1.2em;
+}
+
+div.chamada{
+    margin: 15% auto;
+    max-width: 580px;
+    text-align: left;
+}
+
+.chamada h2{
+    color:white;
+    font-weight: 300;
+    font-size: 2.5em;
+    line-height: 1.5em;
+}
+
+.chamada p{
+    padding: 2% 0;
+    color:white;
+    text-indent: 1em;
+    font-weight: 300;
+}
+
+/*  */
+
+/* Configurações Section-01 */
+
+section.section-01{
+    width:100%;
+    background-color:#472562;
+    height:400px;
+}
+
+.section-text{
+    float:left;
+    width:50%;
+    margin-top:60px;
+}
+
+.section-text h2{
+    color:white;
+    font-weight: 300;
+    font-size: 1.7em;
+
+}
+
+.section-text p{
+    color:white;
+    font-weight: 300;
+    font-size: 1.1em;
+    margin: 20px 0;
+}
+
+.section-text ul{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+.section-text ul li{
+    color:white;
+    font-weight: 300;
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+input[type=submit]{
+    color:white;
+    background-color:#FF703D;
+    width:165px;
+    height: 44px;
+    font-size: 16px;
+    margin-top: 30px;
+    border-radius:30px;
+    border:0;
+    cursor: pointer;
+}
+
+.img-device{
+    float:left;
+    width:50%;
+    height:430px;
+    position:relative;
+    top:-30px;
+    background-image:url('../img/device.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+/*  */
+
+/* Configurações Section-02 */
+
+.section-02 {
+    text-align:center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.section-02 h2{
+    font-size: 1.6em;
+    font-weight: 300;
+    padding-bottom: 3%;
+    color: #472663;
+}
+
+.section-02 p{
+    font-size: 1.1em;
+    font-weight: 300;
+    max-width:900px;
+    display:inline-block;
+}
+
+.section-02 img{
+    width:100%;
+    margin-top: 1%;
+    position:relative;
+    top: 70px;
+}
+
+/*  */
+
+/* Configurações Section-03 */
+
+.section-03{
+    width:100%;
+}
+
+.our-team{
+    float:left;
+    width:50%;
+    padding: 140px 5% 90px 2%;
+    background-color:#835FA7;
+    color:white;
+}
+
+.text-wrapper{
+    float:right;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.our-team h3{
+    font-size: 1.6em;
+    font-weight:300;
+    font-style: italic;
+    margin-bottom: 2%;
+}
+
+.our-team p{
+    font-size: 1.05em;
+    font-weight:300;
+    line-height: 2em;
+}
+
+.founders{
+    float:right;
+    width:50%;
+    padding: 140px 5% 90px 3%;
+}
+
+.scrollEquipe{
+    max-width: 600px;
+    /* padding-left:20px; */
+    overflow:hidden;
+}
+
+.scroll-wrapper{
+    width:100%;
+}
+
+.sobre-autor{
+    float:left;
+    width:100%;
+    padding-top:4px;
+}
+
+.titulo-autor{
+    float:left;
+}
+
+.img-autor{
+    float:left;
+    width:40px;
+    height:40px;
+    position: relative;
+    top: -4px;
+    left: 5px;
+    border-radius: 50%;
+    background-image: url('../img/foto_atual.jpg');
+    background-size: 100% 100%;
+
+}
+
+.titulo-autor h3{
+    margin-bottom: 2px;
+    font-size: 1.6em;
+    font-weight: 300;
+    font-style: italic;
+    color: #232323;
+}
+
+.titulo-autor > p{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14px;
+    color: #232323;
+    
+}
+
+.texto-autor{
+    float:left;
+    width:100%;
+    margin-top: 2%;
+    line-height: 2em;
+}
+
+.slider-bullet{
+    width:100%;
+    float:left;
+}
+
+.slider-bullet span{
+    float:left;
+    margin: 1% 2% 0 0;
+    width: 16px;
+    height:16px;
+    background-color:#ccc;
+    border-radius:50%;
+    cursor:pointer;
+}
+
+.slider-bullet span:nth-of-type(1){
+    background-color:#9b9b9b;
+}
+
+/*  */
+
+/* Configurações Section Diferenciais */
+
+section.diferenciais{
+    padding:50px 2%;
+}
+
+section.diferenciais h2{
+    color:#5D4076;
+    font-weight: 300;
+    font-size:30px;
+    text-align: center;
+}
+
+.box-diferenciais{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.diferenciais-single{
+    padding:50px 2%;
+    width:33.3%;
+    text-align: center;
+}
+
+.diferenciais-single i{
+    font-size:60px;
+    color:#835FA7;
+}
+
+.diferenciais-single h3{
+    color:#835FA7;
+    font-weight: 400;
+    padding:10px 0;
+}
+
+.diferenciais-single p{
+    color:#9b9b9b;
+    line-height:1.5em;
+    text-align: justify;
+}
+
+/*  */
+
+/* Configurações Section-04 */
+
+section.section-04{
+    background-color:#472562;
+    width:100%;
+    padding: 100px 0;
+}
+
+.form{
+    float:left;
+    width:50%;
+}
+
+.text-form h2{
+    color:white;
+    font-weight: 300;
+}
+
+.text-form p{
+    color:white;
+    font-weight: 300;
+    max-width: 400px;
+    margin: 10px 0;
+}
+
+input[type=text], input[type=email]{
+    margin:1% 0;
+    outline:0;
+    width: 90%;
+    max-width:480px;
+    height: 58px;
+    line-height: 58px;
+    padding-left: 8px;
+}
+
+textarea{
+    display:inline-block;
+    outline:0;
+    width: 90%;
+    max-width:480px;
+    height: 160px;
+    padding:15px;
+}
+
+.map-section{
+    float:left;
+    width:50%;
+    padding: 0 20px;
+}
+
+.map-section h2{
+    color:white;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.map-section .mapouter{
+    width:100%;
+    height:auto;
+    border: 5px solid #ccc;
+}
+
+/*  */
+
+/* Configurações Footer */
+
+.footer{
+    width:100%;
+    background-color:#192123;
+    padding: 40px 2%;
+}
+
+.footer p:nth-of-type(1){
+    float:left;
+    color:white;
+}
+
+.footer p:nth-of-type(2){
+    float:right;
+    color:white;
+}
+
+/*  */
+
+/* Configurações Responsivo */
+
+@media screen and (max-width:768px){
+    
+    /* header{
+        height:auto;
+    } */
+
+    .menu-desktop{
+        display:none;
+    }
+
+    .menu-mobile{
+        display:block;
+    }
+
+    .logo img{
+        width:60%;
+    }
+
+    div.chamada{
+        margin: 30% auto 0 auto;
+        text-align: center;
+    }
+
+    section.section-01{
+        width:100%;
+        height:auto;
+        text-align: center;
+        padding: 60px 0;
+    }
+    
+    .section-text{
+        float:none;
+        width:100%;
+        margin-top: 0;
+    }
+
+    .img-device{
+        display:none;
+        float:none;
+    }
+
+    .section-02{
+        margin-top: 5%;
+    }
+
+    .box-diferenciais{
+        display:block;
+    }
+
+    .diferenciais-single{
+        width:100%;
+    }
+
+    section.section-04 .center{
+        text-align: center;
+    }
+    
+    .form{
+        float:none;
+        width:100%;
+    }
+
+    .text-form p{
+        display: inline-block;
+    }
+    
+    
+    .map-section{
+        float:none;
+        width:100%;
+        padding-top: 30px;
+    }
+
+}
+
+@media screen and (max-width:568px){
+    .our-team{
+        width:100%;
+        padding: 100px 0 40px 0;
+            
+
+    }
+    
+    .founders{
+        width:100%;
+        padding:40px 5% 40px 5%;
+    }
+    
+    .sobre-autor{
+        max-width: 600px;
+    }
+
+
+    .footer{
+        text-align: center;
+    }
+    
+    .footer p:nth-of-type(1){
+        float:none;
+        margin: 10px 0;
+    }
+    
+    .footer p:nth-of-type(2){
+        float:none;
+        font-size: 14px;
+    }
+    
+}
+
+/*  */
